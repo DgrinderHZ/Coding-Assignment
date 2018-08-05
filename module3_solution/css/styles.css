@@ -1,6 +1,6 @@
 body {
 	font-family: Arial;
-	color: #0000fe;
+	color: #030007;
 	background-color: #EE434A;
 	font-size: 15px;
 }
@@ -8,4 +8,16 @@ body {
 	background-color: white;
 	font-size: 2em;
 	color: black;
+}
+
+.content {
+	background-color: gray;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+}
+
+.title1 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
 }
