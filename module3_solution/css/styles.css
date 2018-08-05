@@ -1,7 +1,7 @@
 body {
 	font-family: Arial;
 	color: #030007;
-	background-color: #EE434A;
+	background-color: white;
 	font-size: 15px;
 }
 #bg {
@@ -20,4 +20,96 @@ body {
 .title1 {
 	font-size: 1.5em;
 	margin-bottom: 10px;
+}
+
+/******* This part is a refining : I did some modifications based on my classemates codes******/
+
+
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border-bottom: 2px solid black;
+
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+.navbar-brand h1 {
+  color: black;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: black;
+  font-size: 1.2em;
+  text-align: center;
+  background: white;
+  border: 1px solid grey;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+h1.text-center {
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
+
+#lecture1, #lecture2, #lecture3 {
+	background: white;
+	padding: 20px;
+}
+
+#lectures {
+	background: grey;
+	color: black;
+  	font-weight: bold;
+  	padding: 15px;
+}
+
+#lectures h1 {
+  	color: black;
+  	font-size: 1.5em;
+  	font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+	padding-top: 25px;
+ 	margin-bottom: 0px;
+ 	height: 50px;
+  }
+  .navbar-brand h1 {
+  	padding-left: 25px;
+  }
+  #inside-text {
+	margin: 50px;
+	margin-top: 20px;
+	
 }
