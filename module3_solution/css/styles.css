@@ -22,9 +22,6 @@ body {
 	margin-bottom: 10px;
 }
 
-/******* This part is a refining : I did some modifications based on my classemates codes******/
-
-
 
 /** HEADER **/
 #header-nav {
@@ -53,7 +50,6 @@ body {
   margin-bottom: 0px;
 }
 #nav-list a {
-  font-family: "Comic Sans MS", cursive, sans-serif;
   color: black;
   font-size: 1.2em;
   text-align: center;
